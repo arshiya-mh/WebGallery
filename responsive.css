@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 45%; /* برای تبلت‌ها و نمایشگرهای کوچک‌تر */
+    }
+    .logo a img {
+        width: 40px; /* کوچک‌تر کردن لوگو */
+        height: 40px;
+    }
+    .addbt button {
+        font-size: 16px; /* اندازه دکمه کوچک‌تر */
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%; /* برای موبایل، هر تصویر یک ردیف */
+    }
+    .logo a img {
+        width: 30px; /* کوچک‌تر کردن لوگو بیشتر */
+        height: 30px;
+    }
+    .addbt button {
+        font-size: 14px; /* اندازه دکمه در موبایل */
+        padding: 5px 10px;
+    }
+    .footer p {
+        font-size: 12px; /* کوچک‌تر کردن متن فوتر برای موبایل */
+    }
+}
